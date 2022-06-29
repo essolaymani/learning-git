@@ -7,3 +7,4 @@ ffmpeg -i test_video.mp4 -hls_flags single_file output_of_test_video.m3u8
 
 12.34.56.78:80/hls-server/video_segments_0.ts
 12.34.56.78:80/hls-server/hls_master_for_test.m3u8
+localhost/hls-server/hls_master_for_test.m3u8
