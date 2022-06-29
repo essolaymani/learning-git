@@ -1,2 +1,6 @@
-HLS
+#HLS
+-- FIRST COMAND
 ffmpeg -i test.mp4 -hls_time 10 -hls_playlist_type vod -hls_segment_filename "video_segments_%0d.ts" hls_master_for_test.m3u8
+
+-- SECOND COMMAND
+ffmpeg -i test_video.mp4 -hls_flags single_file output_of_test_video.m3u8
