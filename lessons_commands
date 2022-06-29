@@ -1,0 +1,2 @@
+HLS
+ffmpeg -i test.mp4 -hls_time 10 -hls_playlist_type vod -hls_segment_filename "video_segments_%0d.ts" hls_master_for_test.m3u8
